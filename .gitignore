@@ -1,0 +1,16 @@
+# Sovereign RAG generated files (never commit)
+chroma_db/
+*.sqlite3
+audit*.jsonl
+.env
+
+# Python and editor files
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+.vscode/
+.idea/
+Thumbs.db
