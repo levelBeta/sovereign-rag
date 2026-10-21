@@ -43,7 +43,7 @@ Modules: chunker.py, pii.py, vstore.py, retrieval.py, answer.py, verify.py, agen
 
 ## Measured results (CPU only, one machine)
 
-Eval (`python eval.py`): 25 of 25 checks passed in 73 to 91 seconds across runs. Model-dependent checks run 3 times each.
+Eval (`python eval.py`): 25 of 25 checks passed in 73 to 101 seconds across runs. Model-dependent checks run 3 times each.
 
 - recall@5: 8 of 8 questions, with the expected chunk ranked first every time
 - role-denied: 3 of 3 cases, no restricted chunk retrieved
